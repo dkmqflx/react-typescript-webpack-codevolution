@@ -1,16 +1,18 @@
 import './styles.css';
 import IMAGE from './react.png';
 import LOGO from './logo.svg';
+import ClickCounter from './ClickCounter';
 
 export const App = () => {
   return (
     <>
       <h1>
-        App - {process.env.NODE_ENV} {process.env.name}
+        Hello App - {process.env.NODE_ENV} {process.env.name}
       </h1>
-      ;
+
       <img src={IMAGE} alt="React Logo" />
       <img src={LOGO} alt="React Logo Svg" width="300" height="200" />
+      <ClickCounter></ClickCounter>
     </>
   );
 };
