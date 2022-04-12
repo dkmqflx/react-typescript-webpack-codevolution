@@ -17,6 +17,8 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
+    'prettier',
+    'plugin:prettier/recommended',
   ],
   rules: {
     'no-unused-vars': 'off',
@@ -32,6 +34,6 @@ module.exports = {
       version: 'detect',
     },
   },
-};
+}
 
 // 더 많은 설정있다. 문서 읽어보는 것 추천

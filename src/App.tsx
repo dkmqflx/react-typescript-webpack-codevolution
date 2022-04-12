@@ -1,7 +1,7 @@
-import './styles.css';
-import IMAGE from './react.png';
-import LOGO from './logo.svg';
-import ClickCounter from './ClickCounter';
+import './styles.css'
+import IMAGE from './react.png'
+import LOGO from './logo.svg'
+import ClickCounter from './ClickCounter'
 
 export const App = () => {
   return (
@@ -14,8 +14,8 @@ export const App = () => {
       <img src={LOGO} alt="React Logo Svg" width="300" height="200" />
       <ClickCounter></ClickCounter>
     </>
-  );
-};
+  )
+}
 
 /*
 build 환경은 아래 명령어로 실행할 수 있다.
